@@ -1,0 +1,6 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "space-before-function-paren": "never",
+  "tabWidth": 2
+}

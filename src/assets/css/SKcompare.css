@@ -1,0 +1,47 @@
+#SKcompare {
+	height: 100%;
+}
+
+#SKcompare #condition {
+	height: 50px;
+	padding: 9px 5px 5px !important;
+	/* background-color: pink; */
+}
+
+#SKcompare #condition span {
+	padding: 0 5px !important;
+	font-size: 14px;
+}
+
+#SKcompare #tableArea {
+	height: calc(100% - 50px);
+}
+
+#SKcompare #data-table {
+	height: 50%;
+}
+
+#SKcompare #StateDetTable {
+	height: 50%
+}
+
+#SKcompare #data-table,
+#SKcompare #StateDetTable {
+	padding: 5px !important;
+}
+
+#SKcompare #data-table .tableTitle,
+#SKcompare #StateDetTable .tableTitle {
+	height: 30px;
+	background: linear-gradient(to right, #01308d, #01cfff);
+	color: #fff;
+	line-height: 30px;
+	border-radius: 30px 0 0 0;
+	padding-left: 15px !important;
+}
+
+#SKcompare .el-range-editor--mini.el-input__inner {
+  width: 210px;
+  padding-left: 5px !important;
+  vertical-align: middle;
+}

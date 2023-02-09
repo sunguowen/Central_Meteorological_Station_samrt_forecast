@@ -1,0 +1,93 @@
+#forePro {
+  width: 100%;
+  height: 100%;
+  /* background-color: #ccc; */
+}
+#forePro #mapBox {
+  position: relative;
+  float: left;
+  width: calc(100% - 500px);
+  min-width: 1000px;
+  height: 100%;
+  padding: 10px !important;
+}
+
+#forePro #mapBox #mapInt {
+  height: 30px;
+  width: 100%;
+  /* background-color: #3399ff; */
+  background: linear-gradient(to right, #01308d, #01cfff);
+  color: #fff;
+  line-height: 30px;
+  padding-left: 10px !important;
+  border-radius: 15px 15px 0 0;
+}
+
+#forePro #mapBox #map {
+  width: 100%;
+  height: calc(100% - 30px);
+}
+
+#forePro #mapBox #mapLegend {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  z-index: 9999;
+  border: 1px solid #ccc;
+}
+
+#forePro #mapBox #mapTitle {
+  position: absolute;
+  top: 55px;
+  left: 60px;
+  z-index: 9999;
+  font-size: 18px;
+}
+#forePro #mapBox #skButton{
+	position: absolute;
+	top: 55px;
+	right: 50px;
+	z-index: 9999;
+}
+#forePro #condition {
+  float: right;
+  width: 500px;
+  height: 100%;
+  padding: 10px !important;
+}
+#forePro #condition-item {
+  display: block;
+  height: 180px;
+  width: 100%;
+  padding-bottom: 5px !important;
+}
+#forePro #condition-item > div {
+  height: 20%;
+  padding-bottom: 3px;
+}
+#forePro #condition-item > div span {
+  font-size: 14px;
+}
+#forePro #data-table {
+  width: 100%;
+  height: calc(100% - 235px);
+}
+
+#forePro #pagination {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+#forePro #pagination .el-pagination {
+  position: absolute;
+  bottom: 5px;
+}
+
+.el-radio-button__orig-radio:checked + .el-radio-button__inner {
+  background: #01cfff !important;
+  border-color: #01cfff !important;
+}
+.el-button--primary {
+  background: #01cfff !important;
+  border-color: #01cfff !important;
+}

@@ -1,0 +1,23 @@
+#checkSum {
+  height: 100%;
+}
+
+#checkSum #condition {
+  height: 50px;
+  padding: 9px 5px 5px !important;
+  /* background-color: pink; */
+}
+#checkSum #condition span {
+  padding: 0 5px !important;
+  font-size: 14px;
+}
+
+#checkSum #data-table {
+  height: calc(100% - 50px);
+  padding: 5px !important;
+}
+#checkSum .el-range-editor--mini.el-input__inner {
+  width: 210px;
+  padding-left: 5px !important;
+  vertical-align: middle;
+}

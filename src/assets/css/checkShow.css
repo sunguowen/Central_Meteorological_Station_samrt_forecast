@@ -1,0 +1,84 @@
+#checkShow {
+  width: 100%;
+  height: 100%;
+}
+#checkShow #mapBox {
+  position: relative;
+  display: inline-block;
+  width: calc(100% - 500px);
+  min-width: 1000px;
+  height: 100%;
+  padding: 10px !important;
+}
+
+#checkShow #mapInt {
+  height: 30px;
+  color: #fff;
+  line-height: 30px;
+  padding-left: 10px !important;
+  border-radius: 15px 15px 0 0;
+  background: linear-gradient(to right, #01308d, #01cfff);
+}
+#checkShow #map {
+  height: calc(100% - 30px);
+}
+
+#checkShow #mapLegend {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  z-index: 9999;
+  border: 1px solid #ccc;
+}
+
+#checkShow #mapTitle {
+  position: absolute;
+  top: 55px;
+  left: 60px;
+  z-index: 9999;
+  font-size: 18px;
+}
+
+#checkShow #condition {
+  float: right;
+  width: 500px;
+  height: 100%;
+}
+
+#checkShow #condition-item {
+  width: 100%;
+  height: 180px;
+  padding: 10px 0 0 10px !important;
+}
+#checkShow #condition-item > div {
+  height: 20%;
+}
+
+#checkShow #condition-item span {
+  font-size: 14px !important;
+}
+
+#checkShow #data-table {
+  height: calc(100% - 230px);
+  padding: 10px !important;
+}
+
+#checkShow #pagination {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+#checkShow .el-pagination {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+.el-radio-button__orig-radio:checked + .el-radio-button__inner {
+  background: #01cfff !important;
+  border-color: #01cfff !important;
+}
+.el-button--primary {
+  background: #01cfff !important;
+  border-color: #01cfff !important;
+}
